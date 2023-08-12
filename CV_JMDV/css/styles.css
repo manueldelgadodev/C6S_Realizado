@@ -1,0 +1,99 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+/* Cabeza de pagina */
+header {
+  background-color: #e6e6e6;
+  text-align: center;
+  background-image: url(/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1em;
+}
+.divimg {
+  width: 120px;
+  margin-top: 1em;
+}
+h1 {
+  color: #005677;
+  background-color: #c4c4c4;
+  letter-spacing: 10px;
+  padding: 2px;
+  word-spacing: 0.5em;
+  margin-bottom: 0; /* Quita espacio entre h1 y header */
+}
+nav {
+  background-color: #17181c;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #929fb3;
+}
+
+/* Cuerpo de pagina */
+main {
+  margin-top: 1em;
+}
+h3 {
+  color: #005677;
+  background-color: #c4c4c4;
+  letter-spacing: 10px;
+  padding: 5px;
+  word-spacing: 0.5em;
+  padding-left: 1em;
+  margin-top: 0;
+}
+.divcontener_experiencia {
+  display: flex;
+  text-align: left;
+  margin-top: -20px;
+}
+.divdescripcion {
+  margin-left: -35px;
+}
+span {
+  font-weight: bold;
+}
+
+/* Pie de pagina */
+.footer {
+  background-color: #005677;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+.divfooter_texto {
+  display: inline-block;
+  padding: auto;
+  height: 0px;
+}
+.divfooter_call {
+  display: inline-block;
+  padding: 10px;
+}
+.divfooter_linkedin,
+.divfooter_github {
+  display: inline-block;
+  padding: 10px;
+}
